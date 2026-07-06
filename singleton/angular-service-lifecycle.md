@@ -1,3 +1,17 @@
+# 🧠 Simple Explanation
+
+👉 In Angular, **DI + @Injectable + providedIn: 'root'** together enable the Singleton pattern.
+
+---
+
+## 🔷 Concept Breakdown
+
+```text
+DI → Mechanism that provides dependencies
+Injectable → Marks a class as available for DI
+providedIn: 'root' → Creates a singleton instance for the entire app
+```
+
 # 🔷 `providedIn: 'root'` vs `providers: [UserService]`
 
 One of the biggest advantages of using a singleton service (`providedIn: 'root'`) is that **all components share the same service instance and the same `BehaviorSubject`.**
