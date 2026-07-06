@@ -1,6 +1,10 @@
-# 🔷 BehaviorSubject + Observable Pattern (Before combineLatest)
+# 🔷 CombineLatest
 
 Before understanding `combineLatest`, you should understand the **BehaviorSubject + Observable design pattern** in Angular.
+
+- BehaviorSubject → stores and emits state
+- Observable → exposes read-only stream
+- combineLatest → merges multiple Observables into one combined state
 
 ---
 
